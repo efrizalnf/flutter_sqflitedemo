@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 
-import '../module/users/model/users_dataclass.dart';
+import '../../module/users/model/users_dataclass.dart';
 
 class UserDB {
   static late Database _db;

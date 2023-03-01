@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:Sqflite_Demo/state_util.dart';
-import '../../../persist/user_db.dart';
+import '../../../services/db/user_db.dart';
 import '../view/user_view.dart';
 
 class UserController extends State<UserView> implements MvcController {

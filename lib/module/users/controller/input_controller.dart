@@ -1,7 +1,7 @@
 import 'package:Sqflite_Demo/module/users/view/input_view.dart';
 import 'package:flutter/material.dart';
 import 'package:Sqflite_Demo/state_util.dart';
-import '../../../persist/user_db.dart';
+import '../../../services/db/user_db.dart';
 import '../model/users_dataclass.dart';
 
 class InputController extends State<InputView> implements MvcController {
